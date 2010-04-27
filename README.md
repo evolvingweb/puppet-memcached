@@ -4,12 +4,13 @@
 Classes to help manage memcached.  Uses the [Drizzle-developers PPA](https://launchpad.net/~drizzle-developers/+archive/ppa) to get the latest package versions.
 
 ## Usage
+### Server
 <pre>
-# for just the server
 include memcached::server
+</pre>
 
-# for the php extension
-include php:five
+### PHP Extension
+<pre>
 include memcached::php
 </pre>
 
